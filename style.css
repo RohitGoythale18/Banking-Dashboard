@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#banking-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 10px;
+}
+
+.sub-title{
+    font-size: 1.3rem;
+    margin: 10px 0px 10px 0px;
+}
+
+.balance {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(118, 118, 236);
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.actions input {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.actions button {
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    padding: 7px;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(118, 118, 236);
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer h4{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.footer p{
+    text-decoration: underline;
+    color: rgb(118, 118, 236);
+    
+}
