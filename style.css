@@ -26,6 +26,7 @@
 
 .balance {
     font-size: 2em;
+    text-align: center;
     margin-bottom: 20px;
     color: rgb(118, 118, 236);
 }
